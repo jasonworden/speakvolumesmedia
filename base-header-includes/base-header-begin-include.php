@@ -21,5 +21,5 @@
 	<!-- <link href='<?php echo get_template_directory_uri(); ?>/css/dist/bootstrap.min.css' rel='stylesheet' type='text/css'> -->
 	<!-- <link href='<?php echo get_template_directory_uri(); ?>/css-backup/dist/font-awesome.min.css' rel='stylesheet' type='text/css'> -->
 	<link href='//cdnjs.cloudflare.com/ajax/libs/font-awesome/3.2.1/css/font-awesome.min.css' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Cousine:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+	<link href='//fonts.googleapis.com/css?family=Cousine:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
 	<?php wp_head(); ?>
