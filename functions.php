@@ -636,7 +636,7 @@ function needsBillboardHeader() {
 	return true;
 }
 
-function svGetCategoryColor($post) {
+function svGetCategoryColor($post = NULL) {
 	if(!$post) {
 		$post = $the_post;
 	}
@@ -654,7 +654,7 @@ function svGetCategoryColor($post) {
 	return $categoryColor;
 }
 
-function svColorClass($post) {
+function svColorClass($post = NULL) {
 	echo ' '.svGetCategoryColor($post);
 }
 
@@ -807,7 +807,7 @@ function svFeatureType() {
 
 function svBillboardPost($featuredPosts,$index,$featured) {
 	// $featuredPosts->the_post();
-	$catColor = svGetCategoryColor();
+	$catColor = svGetCategoryColor($the_post);
 
 	switch($catColor) {
 		case "post-cat-music":
