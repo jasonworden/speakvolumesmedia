@@ -170,7 +170,13 @@
 							</div>
 
 							<div class="copyright">
-								<span class="copyright-text visible-xs visible-sm">&copy; 2013-2014 Speak Volumes Media.</span>
+								<span class="copyright-text visible-xs visible-sm">&copy; <?php echo date("Y"); ?> Speak Volumes Media.</span>
+								<span class="copyright-text">
+									Please note: this site has recently been brought back from the dead.
+								</span>
+								<span class="copyright-text">
+									Some features are now broken and mosts posts are missing their images :(
+								</span>
 							</div>
 						</div>
 					</div>
