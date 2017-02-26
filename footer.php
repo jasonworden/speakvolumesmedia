@@ -6,7 +6,7 @@
 
 	var header = document.getElementById('page-header'),
 		navbar = document.getElementById('main-navbar'),
-		body =   document.getElementsByTagName("body")[0]; 
+		body =   document.getElementsByTagName("body")[0];
 
 	window.onresize = positionNavbar;
 	window.onscroll = positionNavbar;
@@ -94,7 +94,7 @@
 	</script>
 
 	<?php wp_footer(); ?>
-	
+
 	<footer class="page">
 		<div id="footer-top-container" class="container">
 			<div class="container-inner">
@@ -139,12 +139,12 @@
 							<a class="social" target="_blank" title="instagram: @SpeakVolumesMedia" data-icon="instagram" href="http://instagram.com/speakvolumesmedia"></a>
 							<a class="social" target="_blank" title="Subscribe to our posts" data-icon="rss" href="<?php bloginfo('atom_url'); ?>"></a>
 						</div>
-						
+
 						<div class="copyright">
 							<!-- <a href="#likes-wrapper">
 								<span class="likes-link">Like us on Facebook!</span>
 							</a> -->
-							<span class="copyright-text">&copy; 2014 Speak Volumes Media.</span>
+							<span class="copyright-text">&copy; <?php echo date("Y"); ?> Speak Volumes Media.</span>
 						</div>
 					</div>
 				</div>
@@ -164,7 +164,7 @@
 								<a class="social" target="_blank" title="instagram: @SpeakVolumesMedia" data-icon="instagram" href="http://instagram.com/speakvolumesmedia"></a>
 								<a class="social" target="_blank" title="RSS/atom feed of all posts" data-icon="rss" href="<?php bloginfo('atom_url'); ?>"></a>
 							</div>
-							
+
 							<div class="copyright">
 								<span class="copyright-text visible-xs visible-sm">&copy; 2013-2014 Speak Volumes Media.</span>
 							</div>
@@ -182,14 +182,14 @@
 							Add to your Home screen
 							<i id="bookmark-arrow" class="icon-double-angle-down footer-block"></i>
 						</p>
-						
+
 					</div>
 				</div>
 			</div>
 		</div>
-			
+
 	</footer>
-	
+
 <script type="text/javascript">
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-44268315-1']);
