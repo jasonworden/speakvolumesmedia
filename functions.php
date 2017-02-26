@@ -10,7 +10,7 @@
 
 
 // add_action('init', 'svEnqueueMainStyle');
-
+//
 // function svEnqueueMainStyle() {
 //     wp_enqueue_style('theme-main', get_template_directory_uri().'/styles/style.less');
 //     //wp_enqueue_style('twitter-bootstrap', get_template_directory_uri().'/styles/dist/bootstrap/bootstrap.less');
