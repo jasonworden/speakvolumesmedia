@@ -1,0 +1,527 @@
+/* Make sure images with WordPress-added height and width attributes are scaled correctly. */
+.entry-content img,
+.entry-summary img,
+img[class*="align"],
+img[class*="wp-image-"],
+img[class*="attachment-"] {
+	height: auto;
+}
+img.size-full, img.size-large, img.wp-post-image {
+	height: auto;
+	max-width: 100%;
+}
+/* Make sure videos, embeds, & pics fit their containers. */
+embed, iframe, object, video, img {
+	max-width: 100%;
+}
+
+.container.header {
+	margin-top: 32px;
+}
+
+.container.body {
+	margin-bottom: 10px;
+}
+
+#article .container-inner,
+.container.archive .container-inner {
+    padding: 6px;
+    margin: 0 auto;
+}
+
+#article a { color: #62785a; }
+
+.image {
+    padding: 0;
+}
+
+.post-meta {
+	padding: 15px;
+}
+
+#article header {
+	padding-bottom: 0;
+}
+
+h3.single-title {
+	font-size: 2.6em;
+	margin: 0 0 14px 0;
+	line-height: 1;
+}
+
+h4 {
+	font-size: 24px;
+	margin: 0;
+}
+
+.post-body {
+	padding-bottom: 10px;
+	line-height: 1.4;
+}
+
+h2.section {
+	margin-top: 16px;
+}
+
+.title-gutter {
+	top: 16px;
+}
+
+.post-meta p,
+.post-meta a {
+	font-size: 18px;
+}
+
+.post-meta span.info {
+	margin-right: 10px;
+}
+
+p#unique-info span {
+	display: inline-block;
+}
+
+.post-body {
+	padding: 15px;
+}
+
+.post-body p {
+	line-height: 1.9;
+}
+
+.post-body i {
+	color: black;
+}
+
+.sidebar-outer {
+	padding: 6px 15px 0px 15px;
+}
+
+.sidebar {
+	padding-bottom: 15px;
+	margin: 0 auto;
+}
+
+#likes {
+	padding-top: 0;
+}
+
+
+
+.sharrre, #jump-to-comments {
+	display: inline-block;
+}
+
+.sharrre a {
+	font-size: 18px;
+	line-height: 1;
+}
+
+.sharrre a span, #jump-to-comments i {
+	color: white;
+}
+
+.sharrre a.share span.text {
+	margin-right: 8px;
+}
+
+.sharrre a.share span[data-icon] {
+	font-size: 26px;
+}
+
+.sharrre a.share span.text,
+.sharrre a.share span.count {
+	position: relative;
+	bottom: 5px;
+}
+
+.twitter-tweet .box { background: rgb(0,172,237); }
+.twitter-tweet .box:hover { background: rgba(0,172,237,.6); }
+#post-header .twitter-tweet .box:hover { background: rgba(0,172,237,.8); }
+#jump-to-comments:hover { background: rgba(110,110,110,.8); }
+
+.facebook-like .box {
+	background: rgb(59,89,152);
+	margin-right: 3px;
+}
+
+.facebook-like .box:hover {
+	background: rgba(59,89,152,.8);
+}
+
+
+
+
+
+#jump-to-comments {
+	background: rgb(110,110,110);
+	padding: 7px 11px;
+	margin-left: 3px;
+	height: 35px;
+	position: relative;
+	bottom: 2px;
+}
+
+#jump-to-comments i {
+	text-align: center;
+	font-size: 21px;
+	position: relative;
+	bottom: 3px;
+}
+
+
+
+.sharrre .box {
+	text-align: left;
+	padding: 3px 11px 0px 3px;
+}
+
+.sharrre .box, #jump-to-comments {
+	border-radius: 26px;
+	border: 2px solid transparent;
+	-webkit-transition: background .3s ease;
+    -moz-transition: background .3s ease;
+    -o-transition: background .3s ease;
+    -ms-transition: background .3s ease;   
+    transition: background .3s ease;
+}
+
+.sharrre .box:hover, #jump-to-comments:hover {
+	border-color: rgba(0,0,0,.2);
+	color: white;
+}
+
+.post-body .post-social {
+	border: 0 solid rgba(0,0,0,.1);
+	border-top-width: 2px;
+	padding-top: 12px;
+	text-align: right;
+}
+
+.popover .popover-title {
+	display: none;
+}
+
+
+/*old css for shortcodes */
+.post-body blockquote {
+    background:  rgba(0,0,0,.03);
+    display: block;
+    border-width: 0px;
+    text-align: justify;
+    margin-bottom: 0;
+}
+
+blockquote.question {
+    background:  rgba(0,0,0,.11);
+    background-position: 12px 8px;
+    display: block;
+    font-weight: bold;
+}
+
+.post-body blockquote,
+blockquote.question {
+	padding: 6px 14px 4px 14px;
+}
+
+blockquote.question p {
+	font-weight: bold;
+	font-weight: 700;
+}
+
+blockquote.quote {
+	background:  rgba(0,0,0,.12);
+	padding: 5% 7% 4% 7%;
+	margin: 25px;
+	-moz-box-shadow:    inset 0px 0px 21px 9px rgba(0,0,0,.1);
+ 	-webkit-box-shadow: inset 0px 0px 21px 9px rgba(0,0,0,.1);
+ 	box-shadow:         inset 0px 0px 21px 9px rgba(0,0,0,.1);
+}
+
+blockquote.quote p {
+	font-size: 17px;
+	text-align: center;
+	font-style: italic;
+	font-weight: bold;
+}
+
+.body section {
+	background: rgba(0,0,0,.03);
+	padding-bottom: 1px;
+	margin-bottom: 10px;
+}
+
+.body section p {
+	padding: 0 10px;
+}
+
+.body section header {
+	border-radius: 0;
+	margin-bottom: 10px;
+	background: rgba(0,0,0,.07);
+	padding: 10px;
+}
+
+.body h1 {
+	font-size: 25px;
+	padding: 12px 15px;
+	margin: 0 -15px 10px -15px;
+	text-transform: none;
+	line-height: 1.4;
+	background: rgba(0,0,0,.85) url(../img/noise-mask-light.png) 0px 0px repeat;
+	color: white;
+}
+
+.post-body h1 {
+	text-align: left;
+}
+
+aside h1 {
+	text-align: right;
+}
+
+.body h2 {
+	text-transform: uppercase;
+	font-size: 20px;
+	margin: 0 0 10px 0;
+	padding: 0;
+	line-height: 1.4;
+}
+
+.body h4 {
+	padding-bottom: 6px;
+}
+
+.sidebar-divider {
+	height: 2px;
+	background: rgba(0,0,0,.07);
+	margin: 0 -9px 15px -9px;
+}
+
+#blog-roll a {
+	display: block;
+	font-size: 14px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+@media(max-width: 767px) {
+	article header .square {
+		border-top-right-radius: 20px;
+	}
+
+	#article .container.header, 
+	#article .header header,
+	article.excerpt,
+	main.container.archive {
+		border-top-right-radius: 12px;
+	}
+
+	#post-header p { /*the excerpt*/
+		font-size: 2.1em;
+	}
+
+	#billboard {
+		padding: 25px 10%;
+	}
+}
+
+@media(min-width: 768px) {
+
+	#article .container.header, 
+	#article .header header,
+	article.excerpt,
+	main.container.archive {
+		border-top-right-radius: 27px;
+	}
+
+	#post-header p { /*the excerpt*/
+		font-size: 1.4em;
+	}
+
+	#billboard {
+		padding: 50px 10%;
+	}
+
+}
+
+@media(min-width: 992px) {
+	.body .row {
+		margin: 0 -21px;
+	}
+
+	aside.col-xs-12 {
+		padding: 0 0 0 6px;
+	}
+
+	#article .container.body .container-inner {
+		padding-bottom: 0;
+	}
+
+	#blog-roll a {
+		padding-left: 9px;
+	}
+
+	h1.box-header {
+		margin: 0 -9px 10px -9px;
+	}
+}
+
+@media(max-width: 991px) {
+
+	.sidebar-outer {
+		margin-left: -15px;
+		margin-right: -15px;
+	}
+
+	.post-body .post-social {
+		border-bottom-width: 2px;
+		padding-bottom: 12px;
+	}
+
+	#blog-roll a {
+		display: block;
+		font-size: 14px;
+		padding-left: 3px;
+	}
+
+	h1.box-header {
+		margin: 0 -15px 10px -15px;
+	}
+}
+
+aside .sidebar-outer:last-of-type {
+	margin-bottom: 0;
+}
+
+.main-section {
+	background: white;
+	margin-bottom: 6px;
+}
+
+#ad-pics, #side-featured-image {
+	padding: 6px;
+}
+
+#ad-cycle {
+	max-width: 100%;
+}
+
+#ad-pics img, #ad-pics a {
+	text-align: center;
+	margin: 0 auto;
+}
+
+/*#ad-pics img {
+	max-width: 100% !important;
+}*/
+
+.main-section.left-side {
+	margin-left: -15px;
+	margin-right: -15px;
+}
+
+nav.single nav.post-nav {
+	padding: 12px 15px;
+}
+
+nav.post-nav-wrapper h4 {
+	text-transform: uppercase;
+	font-size: 14px;
+	padding-top: 1px;
+	padding-bottom: 5px;
+}
+
+#article nav.post-nav-wrapper a {
+	color: black;
+}
+
+nav.post-nav span.title {
+	font-size: 18px;
+	line-height: 1;
+}
+
+
+
+
+#post-header {
+	position: relative;
+}
+
+.mask {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+}
+
+#mask-lace {
+	background: url(../img/laced-mask.png) 0px 0px repeat;
+	z-index: 3;
+	opacity: .95;
+}
+
+#mask-noise {
+	background: url(../img/noise-mask.png) 0px 0px repeat;
+	z-index: 1;
+	opacity: 1;
+}
+
+#billboard {
+	position: relative;
+	z-index: 11;
+}
+
+h3.billboard-title {
+	font-size: 5.2em;
+	color: white;
+	margin: 0 auto 15px auto;
+	text-shadow: 0 0 10px rgb(10,10,10);
+	max-width: 1400px;
+}
+
+#post-header p { /*the excerpt*/
+	color: white;
+	text-shadow: 0 0 7px rgb(10,10,10);
+	max-width: 600px;
+	margin: 0 auto 15px auto;
+}
+
+#post-header p a {
+	color: #f53e95;
+}
+
+#post-header p a:hover {
+	text-decoration: underline;
+}
+
+#post-header .post-social {
+	margin-bottom: 15px;
+}
+
+#post-header #scroll-down-arrow {
+	position: absolute;
+	color: rgba(255,255,255,.3);
+	font-size: 90px;
+	bottom: 0px;
+	left: 50%;
+	margin-left: -29px;
+	z-index: 12;
+}
+
+#post-header #scroll-down-arrow:hover {
+	color: rgba(255,255,255,.75);
+}
+
+.container.body {
+	margin-top: 26px;
+}
+
+#post-meta-mobile {
+	padding-bottom: 5px;
+}
+
+.popover {
+	z-index: 110000;
+}
+

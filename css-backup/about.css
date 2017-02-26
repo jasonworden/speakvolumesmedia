@@ -1,0 +1,98 @@
+#about-us .container-inner
+/*#contact-us .container-inner*/
+{
+	padding: 60px 60px 50px 60px;
+	padding: 7% 7% 5% 7%;
+}
+
+header.page { margin-bottom: 0 }
+
+img#email-us {
+	margin: 16px 6px;
+}
+
+#about-us p img {
+	max-height: 60px;
+	margin-top: 2%;
+}
+
+h4.position {
+	text-transform: uppercase;
+	font-size: 14px;
+	margin: 4px 0;
+}
+
+h5 {
+	margin: 0;
+	padding: 7px 4px;
+	font-size: 1.6em;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+#others {
+	padding: 3% 1% 2% 1%;
+}
+
+#orientation {
+	max-height: 800px;
+}
+
+@media(min-width: 992px) {
+	#orientation {
+		padding: 35px 0;
+	}
+}
+
+.info-box, .details-box {
+	padding: 10px 10px 0 10px;
+}
+
+.info-box {
+	margin-top: 6px;
+}
+
+.info-box a, .details-box a {
+	display: block;
+}
+
+#join-us h4 {
+	text-decoration: underline;
+}
+
+@media(max-width: 767px) {
+	#submissions-header {
+		border-top-right-radius: 10px;
+	}
+}
+
+@media(min-width: 768px) and (max-width: 991px) {
+	#submissions-header {
+		border-top-right-radius: 20px;
+	}
+}
+
+@media(min-width: 992px) {
+	#inquiries-header {
+		border-top-right-radius: 20px;
+	}
+	/*#contact-us .info-box {
+		height: 205px;
+	}
+	#join-us .info-box {
+		height: 285px;
+	}*/
+}
+
+#contact-us a:hover,
+#join-us a:hover {
+	text-decoration: underline;
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,120 @@
+body {
+	background: rgb(250,153,82);
+	background: url('../img/orange-noise.png')
+}
+
+.container {
+	background: none;
+}
+
+#intro {
+	margin-top: 20px;
+}
+
+#poster {
+
+}
+
+p, a, #circle, .tix {
+	font-family: 'Nixie One';
+}
+
+h2 {
+	font-size: 8em;
+}
+
+p span {
+	font-size: 1.3em;
+}
+
+p.alt {
+	font-family: 'mostra_nuova_regularregular';
+}
+
+#circle {
+	background: rgb(250,153,82);
+	margin: 23px auto 27px auto;
+	height: 150px;
+	width: 150px;
+	padding: 38px 25px 30px 25px;
+	border-radius: 50%;
+	border: 1px black solid;
+	text-align: right;
+}
+
+#circle p {
+	font-size: 45px;
+	position: relative;
+	bottom: 9px;
+}
+
+.tix {
+	font-size: 1.5em;
+	padding: 30px;
+	border: 1px black solid;
+	max-width: 300px;
+	margin: 30px auto 35px auto;
+}
+
+.main a:hover,
+.main a:hover div
+ {
+    text-decoration: none;
+    color: white;
+    -webkit-transition: color .3s ease;
+    -moz-transition: color .3s ease;
+    -o-transition: color .3s ease;
+    -ms-transition: color .3s ease;
+    transition: color .3s ease;
+}
+
+a:hover .tix {
+	background: rgb(250,153,82);
+	border-color: white;
+	   -webkit-transition: border-color .3s ease, background .3s ease;
+    -moz-transition: border-color .3s ease, background .3s ease;
+    -o-transition: border-color .3s ease, background .3s ease;
+    -ms-transition: border-color .3s ease, background .3s ease;
+    transition: border-color .3s ease, background .3s ease;
+}
+
+.post-social {
+	margin-bottom: 10px;
+}
+
+#outro {
+	
+	background: rgba(255,255,255,.87);
+}
+
+#outro p {
+	font-size: 1.35em;
+}
+
+#outro p a {
+	color: rgb(250,183,82);
+}
+
+#outro p a:hover {
+	color: white;
+}
+
+#outro-inner {
+	padding: 20px 20px 25px 20px;
+}
+
+@media(min-width: 992px) {
+	#content {
+		float: right;
+	}
+}
+
+img.sidebar {
+	margin: 0 auto;
+}
+
+@media(max-width: 390px) {
+	h2 {
+		font-size: 52px;
+	}
+}
